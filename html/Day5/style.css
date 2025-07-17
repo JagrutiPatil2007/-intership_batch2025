@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 10px;
+
+  /* Increase height so all boxes fit */
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.no{
+    border: 1px solid #666;
+    width: 400px;
+}
+.no-1{
+  background: lightblue;
+  align-self: flex-start;
+
+}
+.no-2{
+    background: lightcoral;
+    align-self: center;
+  }
+.no-3{
+    background: lightcyan;
+    align-self: flex-end;
+
+  }
